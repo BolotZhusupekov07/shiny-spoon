@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a7bbc;
+  height: 80px;
+
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 5rem;
+  color: #dadada;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.link:hover {
+  color: #f1f1f1;
+}
+
+body {
+  background-color: #dadada;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  border-radius: 15px;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 95%;
+  min-width: 70%;
+  background-color: #ffffff;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas:
+    "block-1 block-2"
+    "block-1 block-2"
+    "block-3 block-3";
+}
+
+.table {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+}
+.table thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background: #d8d8d8;
+  font-size: 14px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 50px;
+  border-radius: 4px;
+}
+.table tbody td {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+  font-size: 14px;
+  vertical-align: top;
+  background-color: #86D400;
+  border-radius: 5px;
+}
+.table thead tr th:first-child,
+.table tbody tr td:first-child {
+  border-left: none;
+  width: 105px;
+}
+.table thead tr th:last-child,
+.table tbody tr td:last-child {
+  border-right: none;
+}
+
+.grin {
+  background-color: #59E024;
+  margin-right: 15px;
+}
+
+.block-1 {
+  grid-area: block-1;
+  margin-right: 50px;
+}
+
+.block-2 {
+  min-width: 50rem;
+  max-width: 60rem;
+  grid-area: block-2;
+}
+
+.block-3 {
+  grid-area: block-3;
+}
+
+h3 {
+  min-width: 200px;
+  background-color: rgb(172, 172, 172);
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.down p {
+  border: 1px solid rgb(27, 27, 27);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.down p:hover {
+  cursor: default;
+}
+.fa-chevron-down {
+  margin-left: 115px;
+}
+.fa-chevron-down:hover {
+  cursor: pointer;
+}
+
+.down-2 li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.block-1 h3 {
+  font-size: 17px;
+}
+.down-2 li:hover {
+  cursor: pointer;
+}
+.red {
+  background-color: #CE1010;
+}
